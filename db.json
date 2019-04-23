@@ -57,7 +57,7 @@
       "userId": 3,
       "title": "Whales",
       "description": "*Shot from a beach off the coast of Hawaii*\n - Camera: Canon SimpleMount AlphaBeta\n - Lens cap: Off\n\nCheck out my other videos at https://my.videos.online/Issac",
-      "uploaded_at": "2019-01-01T08:14:53-10:00",
+      "uploadedAt": "2019-01-01T08:14:53-10:00",
       "url": "https://s3-ap-southeast-2.amazonaws.com/coding-test-asset/whales.mp4",
       "size": 14745.6
     },
@@ -66,7 +66,7 @@
       "userId": 3,
       "title": "Underwater",
       "description": "Was trying to find the Lost City of Atlantis - but got distracted.",
-      "uploaded_at": "2019-04-01T18:43:13+08:00",
+      "uploadedAt": "2019-04-01T18:43:13+08:00",
       "url": "https://s3-ap-southeast-2.amazonaws.com/coding-test-asset/underwater.mp4",
       "size": 68096.0
     },
@@ -75,7 +75,7 @@
       "userId": 2,
       "title": "Johnny Walker Beatles Time",
       "description": "Started out trying to be the next Beatles.\nGot my Johnny Walkers out instead.",
-      "uploaded_at": "2019-04-07T12:16:47+10:00",
+      "uploadedAt": "2019-04-07T12:16:47+10:00",
       "url": "https://s3-ap-southeast-2.amazonaws.com/coding-test-asset/walker.mp4",
       "size": 12492.8
     }
@@ -197,19 +197,19 @@
   "profile": {
     "id": 1,
     "name": "Fred",
-    "member_since": "2019-01-01T06:35:25-07:00",
+    "memberSince": "2019-01-01T06:35:25-07:00",
     "watched": [
       {
         "videoId": 1,
         "percentage": 100,
         "times": 3,
-        "last_viewed": "2019-04-23T10:25:31-07:00"
+        "lastViewed": "2019-04-23T10:25:31-07:00"
       },
       {
         "videoId": 2,
         "percentage": 80,
         "times": 1,
-        "last_viewed": "2019-04-22T17:31:46-07:00"
+        "lastViewed": "2019-04-22T17:31:46-07:00"
       }
     ],
     "subscriptions": [
