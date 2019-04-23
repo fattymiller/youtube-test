@@ -54,7 +54,7 @@
   "videos": [
     {
       "id": 1,
-      "uploaded_by": 3,
+      "user_id": 3,
       "title": "Whales",
       "description": "*Shot from a beach off the coast of Hawaii*\n - Camera: Canon SimpleMount AlphaBeta\n - Lens cap: Off\n\nCheck out my other videos at https://my.videos.online/Issac",
       "uploaded_at": "2019-01-01T08:14:53-10:00",
@@ -63,7 +63,7 @@
     },
     {
       "id": 2,
-      "uploaded_by": 3,
+      "user_id": 3,
       "title": "Underwater",
       "description": "Was trying to find the Lost City of Atlantis - but got distracted.",
       "uploaded_at": "2019-04-01T18:43:13+08:00",
@@ -72,7 +72,7 @@
     },
     {
       "id": 3,
-      "uploaded_by": 2,
+      "user_id": 2,
       "title": "Johnny Walker Beatles Time",
       "description": "Started out trying to be the next Beatles.\nGot my Johnny Walkers out instead.",
       "uploaded_at": "2019-04-07T12:16:47+10:00",
@@ -214,7 +214,7 @@
     ],
     "subscriptions": [
       {
-        "user": 3
+        "user_id": 3
       }
     ]
   }
