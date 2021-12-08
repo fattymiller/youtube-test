@@ -1,6 +1,34 @@
+### Task
+Using ReactJS, write a simple video player where people can watch videos and leave comments.
+
+Heads up: Data is served from a read-only data store, so no information will be persisted between requests.
+
+To submit your work, commit and push everything to a public repo (such as GitHub) and send us the URL in an email.
+
 ### URLs
- - Rest API Reference: https://github.com/typicode/jsonplaceholder#how-to
- - Base URL for this test: https://my-json-server.typicode.com/fattymiller/youtube-test/
+ #### Base URL for this test
+ https://my-json-server.typicode.com/fattymiller/youtube-test/
+
+ - GET /profile
+    > The profile of the currently logged in user
+ - GET /users
+    > Details on all users registered on the platform
+ - GET /users/[id]
+    > Profile information for user with [id]
+ - GET /users/[id]/videos
+    > A collection of all videos uploaded by a User
+ - GET /users/[id]/comments
+    > A collection of all comments posted by a user
+ - GET /videos
+    > A collection of all videos that have been uploaded
+ - GET /videos/[id]
+    > Details on the uploaded video including a link to a video file to play
+ - GET /videos/[id]/comments
+    > A collection of all comments uploaded to video with [id]
+ - POST /videos/[id]/comments
+    > A URL that a user can post to when leaving a comment against a video.
+
+    > **Note** this URL is read-only, no data will actually be persisted.
 
 ### Example request code
 ```
